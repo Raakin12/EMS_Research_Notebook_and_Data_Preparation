@@ -1,0 +1,12 @@
+# Tested package availability for Python 3.13 on macOS; use a dedicated venv.
+numpy>=2.0,<3
+pandas>=2.2,<3
+requests>=2.32,<3
+scipy>=1.14,<2
+scikit-learn>=1.5,<2
+statsmodels>=0.14.4,<1
+matplotlib>=3.9,<4
+catboost>=1.2.10,<2
+hmmlearn==0.3.3
+jupyterlab>=4,<5
+ipykernel>=6,<8

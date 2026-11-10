@@ -1,0 +1,67 @@
+{
+  "source": "https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj",
+  "api": "https://data.cityofnewyork.us/resource/76xm-jjuj.csv",
+  "retrieved_at_utc": "2026-11-09T21:46:33.445850+00:00",
+  "historical_window": [
+    "2024-05-01T00:00:00",
+    "2024-11-18T00:00:00"
+  ],
+  "future_window": [
+    "2024-11-18T00:00:00",
+    "2024-11-25T00:00:00"
+  ],
+  "history_rows": 913796,
+  "future_rows": 30197,
+  "historical_columns": [
+    "incident_id",
+    "incident_datetime",
+    "initial_call_type",
+    "initial_severity_level_code",
+    "final_call_type",
+    "final_severity_level_code",
+    "first_assignment_datetime",
+    "valid_dispatch_rspns_time_indc",
+    "dispatch_response_seconds_qy",
+    "first_activation_datetime",
+    "first_on_scene_datetime",
+    "valid_incident_rspns_time_indc",
+    "incident_response_seconds_qy",
+    "incident_travel_tm_seconds_qy",
+    "incident_close_datetime",
+    "held_indicator",
+    "incident_disposition_code",
+    "borough",
+    "incident_dispatch_area",
+    "zipcode",
+    "policeprecinct",
+    "citycouncildistrict",
+    "communitydistrict",
+    "communityschooldistrict",
+    "congressionaldistrict",
+    "reopen_indicator",
+    "special_event_indicator",
+    "standby_indicator",
+    "transfer_indicator",
+    "first_to_hosp_datetime",
+    "first_hosp_arrival_datetime"
+  ],
+  "prediction_time_columns": [
+    "incident_id",
+    "incident_datetime",
+    "initial_call_type",
+    "initial_severity_level_code",
+    "borough",
+    "incident_dispatch_area",
+    "zipcode",
+    "policeprecinct",
+    "citycouncildistrict",
+    "communitydistrict",
+    "communityschooldistrict",
+    "congressionaldistrict"
+  ],
+  "no_outcomes_downloaded_for_future": true,
+  "sha256": {
+    "incident_history.csv": "68c2a652efd376121cf2511d8a39b9db04df46b1626e786f773154f39cd4c523",
+    "incidents_to_predict.csv": "8d3f560097c95e2e8d43ef05e823982fae8a7844d9541714e91371a282baafe5"
+  }
+}
